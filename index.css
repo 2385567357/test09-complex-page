@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(151, 147, 147);
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #2289BF;
+    position: fixed;
+    min-width: 700px;
+}
+nav div:nth-child(1){
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+nav div:nth-child(2){
+    float: right;
+    margin-right: 200px;
+}
+nav div input{
+    width: 273px;
+    height: 28px;
+    border-radius: 14px;
+    padding-left: 40px;
+    background: #fff url(imags/search.png) no-repeat 13px 5px;
+    line-height: 28px;
+}
+.navright a{
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 12px;
+    background: url(imags/login.png) no-repeat 0 0;
+}
+/* 左页面 */
+.leftpage{
+    position: fixed;
+    margin-top: 55px;
+    width: 260px;
+    height: 100%;
+    font-family: "黑体";
+    background-color: #2B2F3D;
+}
+.account{
+    height: 140px;
+    border-bottom: 1px solid #323747;
+}
+
+.name{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.name a{
+    color: #fff;
+}
+.name a span{
+    top:40px;
+    left:120px;
+    position: absolute;
+}
+
+.account_date>div{
+    width: 90px;
+    display: inline-block;
+    position: absolute;
+    top:100px;
+    color: #67778b;
+    text-align: center;
+}
+.account_date div:first-child{
+    left: 45px;
+    border-right: 1px solid #323747;
+}
+.account_date div:last-child{
+    left:135px;
+}
+.account_date div p:last-child{
+    font-size: 12px;
+}
+.list{
+    color: #67778b;
+}
+.list li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.list li:hover {
+    background: #383E4E;
+}
+/* 右页面开始 */
+.rightpage{
+    width:100%;
+    height: 1000px;
+    background-color: #EEEEED;
+}
+.rightpage header{
+    height: 85px;
+    padding-top: 55px;
+    line-height: 30px;
+    padding-left: 280px;
+    font-size: 13px;
+    background-color: white;
+}
+.rightpage header a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #A7A7A7;
+}
+.rightpage header a:last-child{
+    color: #6C90AF;
+}
+.data{
+    padding-top: 15px;
+    padding-left: 320px;
+    width: 100%;
+    height: 990px;
+    /* background-color: red; */
+}
+.data_top_1{
+    width: 900px;
+    height: 87px;
+    background-color: pink;
+    padding: 15px;
+}
+.data_top_1 div{
+    font-size: 13px;
+    display: inline-block;
+}
+.data_top_1 div:first-child{
+}
